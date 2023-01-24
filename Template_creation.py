@@ -1,5 +1,3 @@
-import os
-import warnings
 import numpy as np
 import matplotlib.pyplot as plt
 from astropy.table import Table
@@ -8,9 +6,6 @@ from astroquery.simbad import Simbad
 from astroquery.gaia import Gaia
 from gaiaxpy import calibrate
 
-
-warnings.simplefilter('ignore', category=Warning)
-os.chdir('C:/Users/wcq637/Documents/Private/BYW/Gaia spectra')
 
 spts = ['B', 'A', 'F', 'G', 'K', 'M', 'L']
 
