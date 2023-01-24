@@ -2,7 +2,7 @@
 
 [![astropy](http://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat)](http://www.astropy.org/)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7566303.svg)](https://doi.org/10.5281/zenodo.7566303)
+Gaia_spec uses [GaiaXPy](https://gaia-dpci.github.io/GaiaXPy-website) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7566303.svg)](https://doi.org/10.5281/zenodo.7566303)
 
  ```Spec_compare``` is a Python module to compare Gaia low-resolution BP-RP spectra to templates created from Gaia spectra of confirmed spectral types (A0V-L1V).
 
