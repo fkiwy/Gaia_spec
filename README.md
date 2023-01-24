@@ -25,10 +25,10 @@ Gaia source id: 1204754033223498624 Matched tempalte: M9V
 ```
 
 Plots:
-![K5](result/K5V_58925512487888896.png)
-![M0](result/M0V_378026395579692672.png)
-![M5](result/M5V_200296663143599104.png)
-![M9](result/M9V_1204754033223498624.png)
+![K5](results/K5V_58925512487888896.png)
+![M0](results/M0V_378026395579692672.png)
+![M5](results/M5V_200296663143599104.png)
+![M9](results/M9V_1204754033223498624.png)
 
 Docstring:
 ```
