@@ -8,7 +8,7 @@ jobs:
       - name: Set up Python 3.x
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9.7'
+          python-version: '3.9'
       - name: Display Python version
         run: |
           python setup.py install
