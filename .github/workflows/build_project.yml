@@ -1,0 +1,15 @@
+name: Python package
+on: [push, workflow_dispatch]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Display Python version
+        run: |
+          python -c "import sys; print(sys.version)"
+          python setup.py
