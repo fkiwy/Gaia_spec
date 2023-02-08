@@ -64,4 +64,4 @@ Wavelength, flux and error arrays can be extracted as follows:
 
 <br/>
 
-``Spec_compare`` uses [GaiaXPy](https://gaia-dpci.github.io/GaiaXPy-website), the Gaia BP/RP spectra package [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7566303.svg)](https://doi.org/10.5281/zenodo.7566303)
+``Spec_compare`` uses [GaiaXPy](https://gaia-dpci.github.io/GaiaXPy-website), the Gaia BP/RP spectra package.
