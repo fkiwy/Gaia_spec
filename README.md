@@ -4,7 +4,21 @@
 
 ``Spec_compare`` is a Python module to compare Gaia low-resolution BP-RP spectra to templates created from Gaia spectra of confirmed spectral types (A0V-L1V).
 
-Usage example:
+## Module dependencies
+
+The Python Standard Library, NumPy, Matplotlib, Astropy, Specutils and Reproject (the last two are Astropy affiliated packages)
+
+## Installation
+
+The code can be installed as follows:
+```
+git clone https://github.com/fkiwy/Gaia_spec.git
+cd Gaia_spec
+python setup.py install
+```
+
+## Usage example
+
 ```
 from Spec_compare import compare_spectra
 
@@ -16,7 +30,7 @@ for result in results:
     print('Gaia source id:', result[0], 'Matched tempalte:', result[2])
 ```
 
-Console output:
+### Console output:
 ```
 Gaia source id: 58925512487888896 Matched tempalte: K5V
 Gaia source id: 378026395579692672 Matched tempalte: M0V
@@ -24,7 +38,7 @@ Gaia source id: 200296663143599104 Matched tempalte: M5V
 Gaia source id: 1204754033223498624 Matched tempalte: M9V
 ```
 
-Plots:
+### Plots:
 ![K5](examples/K5V_58925512487888896.png)
 ![M0](examples/M0V_378026395579692672.png)
 ![M5](examples/M5V_200296663143599104.png)
