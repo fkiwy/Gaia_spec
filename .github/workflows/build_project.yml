@@ -28,10 +28,10 @@ jobs:
           pip install pytest
           pytest
       - name: Create output directory
-        run: mkdir output
+        run: mkdir spec_compare_output
       - name: Run script
         run: python Spec_compare_exec.py
       - uses: actions/upload-artifact@v3
         with:
           name: Result
-          path: output
+          path: spec_compare_output
