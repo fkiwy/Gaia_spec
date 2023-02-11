@@ -17,7 +17,7 @@ cd Gaia_spec
 python setup.py install
 ```
 
-## Usage example
+## Example usage
 
 ```
 from Spec_compare import compare_spectra
