@@ -6,7 +6,7 @@
 
 ## Module dependencies
 
-The Python Standard Library, NumPy, Matplotlib, Astropy, Specutils and Reproject (the last two are Astropy affiliated packages)
+The Python Standard Library, NumPy, Matplotlib, Astropy, Specutils and GaiaXPy (which is the Gaia BP/RP spectra package)
 
 ## Installation
 
